@@ -1,5 +1,5 @@
 #!/bin/bash
-yesterday=`date -d 1day +%F`
+yesterday=`date -d -1day +%F`
 
 ####需要修改的配置####
 table_1="dwa_beeper.dwa_beeper_trans_match_driver_bid"
